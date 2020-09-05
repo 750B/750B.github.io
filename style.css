@@ -10,17 +10,25 @@ body{
     background-color:var(--gold);
   }
 
-  .nav-link,
-  .navbar-brand {
-    color: black;
-    cursor: pointer;
-  }
+.nav-link, .navbar-brand {
+  color: black;
+  cursor: pointer;
+}
 
 
-  .nav-link:hover {
-    color: white;
-  }
+.nav-link:hover {
+  color: white;
+}
 
-  .navbar-collapse {
-    justify-content: flex-end;
-  }
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+#logo-link {
+  color: black;
+}
+
+#logo{
+  width: 50px;
+  height: auto;
+}
