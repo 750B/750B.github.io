@@ -5,13 +5,28 @@
     --black:#0A0A0A;
     --white:#eeeeee;
 }
+.whitespace{
+  background-color: var(--white);
+  height:100%;
+}
+.black-text{
+  color:black;
+}
 body{
     background-color:black;
     color:var(--white);
     font-family: Garamond;
     margin-bottom:100px;
+    height:auto;
 }
-
+section{
+  padding-top:.5%;
+}
+div{
+  margin:5%;
+  margin-right:10%;
+  margin-left:10%;
+}
 .navbar {
     background-color:var(--gold3);
   }
