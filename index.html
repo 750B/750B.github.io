@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>750 Website</title>
-
+    <title>750B</title>
+    <link rel="shortcut icon" type="image/jpg" href="logo.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-md">
 		<a href="index.html" id="logo-link">
 			<img class="navbar-brand" src="logo.png" alt="750 Logo" id="logo">
@@ -18,23 +22,73 @@
 		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="main-navigation">
+		<div class="collapse navbar-collapse" id="main-navigation" style="margin:0px;">
 			<ul class="navbar-nav">
 				<li class="nav-item">
 					<a class="nav-link" href="about.html">About Us</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="history.html">Our History</a>
+					<a class="nav-link" href="gallery.html">Gallery</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="pandemic.html">Work During Pandemic</a>
+					<a class="nav-link" href="vex.html">Vex Robotics</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="tutorials.html">Tutorials</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact Us</a>
 				</li>
 
 			</ul>
 		</div>
 	</nav>
+	<div class="alert">
+		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+		Until further notice, all robotics activities will be fully virtual
+	  </div>
+	<section>
+		<div>
+	  <h1 class = center>SOUTH BRUNSWICK HIGH SCHOOL ROBOTICS</h1>
 
+	 <img class=center style = "width:25%; height:auto; display:block;" src="logo.png" alt="750 Logo">
+
+</section>
+<div class="video_contain">
+    <video autoplay loop id="video-background" muted plays-inline class="center">
+        <source src="background1.MOV" type="video/mp4">
+    </video>
+</div>
+<!--Need to fix this too-->
+<section>
+	<div class="center" style="margin-top:-2200;">
+		<h2>Welcome</h2>
+		<!--<p>
+			We are South Brunswick High School's Robotics Team located in South Brunswick New Jersey. We are a student-run organization that currently participates in the VRC VEX Robotics Competition.Throughout our 14 years of history, we have experienced many successes that have made us one of the most prestigious robotics clubs in Washington State.
+
+			Our club utilizes a senior-freshmen student mentorship program to help educate freshmen teams so they can create an effective robot. Additionally, we also host the Exothermic Winter Bash every year to help bring STEM and robotics to our community. We are delighted to have 8 teams this year!</p>
+			<img src="logo.png" alt="" style="width:60%;height:auto;">-->
+		</div>
+</section>
+	<iframe id ="map" style="width:80%; height:450px; border:0; " class = "center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.568748762284!2d-74.56621078494697!3d40.37408567936999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3dd13d0929303%3A0x98f8b977df2666f4!2sSouth%20Brunswick%20High%20School!5e0!3m2!1sen!2sus!4v1600628610570!5m2!1sen!2sus"    allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </body>
+<script src = "index.js"></script>
+<script>
+	var video = document.getElementById("myVideo");
+	video.play();
+</script>
 </html>
+<!--2020-->
+<!--https://exothermicrobotics.org/vex-overview/-->
+<!--https://teamdogeyeet.web.app/-->
+
+<!--2019-->
+<!--https://www.team356.ca/-->
+<!--https://www.team254.com/vex/-->
+
+<!--2018-->
+<!--https://northhardin4104.wixsite.com/nhhsvexrobotics-->

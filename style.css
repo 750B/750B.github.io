@@ -1,13 +1,59 @@
 :root{
-    --gold:	#FFD700;
+    --gold1:#FBFCD4;
+    --gold2:#FFDD03;
+    --gold3:#FBC403;
+    --black:#0A0A0A;
+    --white:#eeeeee;
+}
+.whitespace{
+  background-color: var(--white);
+  height:100%;
+}
+.black-text{
+  color:black;
+}
+#myVideo{
+  width: 90vw;
+  height: 70vh;
+}
+.video_contain {
+    position: absolute;
+    /*top: 0;
+    bottom: 0;*/
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -100;
+}
 
+#video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
 }
 body{
-    background-color: black;
+    background-color:black;
+    color:var(--white);
+    font-family: Garamond;
+    margin-bottom:100px;
+    height:auto;
 }
-
+section{
+  padding-top:.5%;
+}
+div{
+  margin:5%;
+  margin-right:10%;
+  margin-left:10%;
+}
 .navbar {
-    background-color:var(--gold);
+    background-color:var(--gold3);
   }
 
 .nav-link, .navbar-brand {
@@ -31,4 +77,31 @@ body{
 #logo{
   width: 50px;
   height: auto;
+}
+.center{
+  margin-top:100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display:block;
+
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
